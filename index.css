@@ -1,0 +1,415 @@
+body {
+  margin: 0;
+}
+
+/* PARTE DEL HEADER */
+
+header {
+  height: 616px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  height: 32px;
+  top: 18px;
+}
+
+@media (min-width: 850px) {
+  .logo-menu {
+    margin: 80px;
+  }
+}
+
+@media (min-width: 850px) {
+  .header-desktop {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 60px 0 60px;
+  }
+}
+
+.imagen-menu {
+  display: flex;
+}
+
+@media (min-width: 850px) {
+  .imagen-menu {
+    height: 109px;
+    width: 95px;
+    left: 80px;
+    top: 36px;
+    border-radius: 0px;
+  }
+}
+
+.menu {
+  display: grid;
+  width: 36px;
+  height: 32px;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+@media (min-width: 850px) {
+  .menu {
+    display: none;
+  }
+}
+
+.rectangulo-menu {
+  background: black;
+  width: 36px;
+  height: 6px;
+}
+
+.menu-desktop {
+  display: none;
+}
+
+@media (min-width: 850px) {
+  .menu-desktop {
+    width: 428;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Rowdies", cursive;
+  }
+}
+
+@media (min-width: 850px) {
+  .palabra-menu {
+    width: 125px;
+    height: 28px;
+    font-family: "Rowdies", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 40px;
+  }
+}
+
+h1 {
+  text-align: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  margin-top: 140px;
+  width: auto;
+  height: 75px;
+}
+
+@media (min-width: 850px) {
+  .h1 {
+    text-align: left;
+    width: 300px;
+  }
+}
+
+.imagen-personal {
+  display: flex;
+  justify-content: center;
+  margin-top: 69px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 850px) {
+  .imagen-personal-desktop {
+    height: 395px;
+    width: 435px;
+  }
+}
+
+/* PARTE DEL MAIN */
+
+main {
+  width: auto;
+  height: 538px;
+  background: #378493;
+  color: azure;
+  font-family: "Rowdies", cursive;
+}
+
+@media (min-width: 850px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-reverse wrap-reverse;
+  }
+}
+
+@media (min-width: 850px) {
+  .texto-main {
+    height: 237px;
+    width: 300px;
+    margin-top: 90px;
+  }
+}
+
+h2 {
+  width: auto;
+  height: 44px;
+  padding: 55px 52px;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+@media (min-width: 850px) {
+  .h2 {
+    padding: 0;
+    width: 300px;
+    text-align: left;
+    font-size: 30px;
+  }
+}
+
+.parrafo-main {
+  height: auto;
+  width: auto;
+  margin: auto 30px;
+  text-align: justify;
+}
+
+@media (min-width: 850px) {
+  .parrafo-main {
+    height: 165px;
+    width: 300px;
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+.imagen-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+@media (min-width: 850px) {
+  .imagen-main {
+    align-items: center;
+    margin: auto 90px auto 90px;
+  }
+}
+
+@media (min-width: 850px) {
+  .imagen-main-desktop {
+    height: 211px;
+    width: 211px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+  }
+}
+
+/* PARTE DE LA DESCRIPCIÓN */
+
+.section-descripcion {
+  height: auto;
+  left: 0px;
+  top: 1154px;
+}
+
+@media (min-width: 850px) {
+  .section-descripcion {
+    height: 604px;
+  }
+}
+
+@media (min-width: 850px) {
+  .titulo-descripcion {
+    font-size: 40px;
+  }
+}
+
+.caja-objetivos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 52px 66px 52px;
+  gap: 104px;
+}
+
+@media (min-width: 850px) {
+  .caja-objetivos {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 70px 80px;
+  }
+}
+
+.objetivos {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.p2 {
+  width: 262px;
+  height: 117px;
+  padding: 0px 57px;
+}
+
+/* PARTE DEL FORMULARIO */
+
+.section-formulario {
+  height: 600px;
+  width: auto;
+  left: 0px;
+  top: 2524px;
+  border-radius: 0px;
+  background: black;
+  display: grid;
+  justify-content: center;
+}
+
+@media (min-width: 850px) {
+  .contenedor-global-formulario {
+    display: flex;
+    align-items: center;
+    width: 730px;
+  }
+}
+
+.titulo-formulario {
+  height: 55px;
+  width: 271px;
+  color: whitesmoke;
+  padding: 70px 52px 0px 52px;
+  margin: 0;
+}
+
+@media (min-width: 850px) {
+  .titulo-formulario {
+    font-size: 30px;
+    padding: 0 0 320px 0;
+    text-align: center;
+  }
+}
+
+.contenedor-formulario {
+  width: 45px;
+  height: 335px;
+  color: whitesmoke;
+  margin: 36px 20px 70px;
+  display: grid;
+  gap: 21px;
+}
+
+.fieldset {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.input-text,
+.textarea {
+  display: block;
+  width: 100%;
+  margin: 9px 0px;
+}
+
+.contenedor-boton {
+  height: 45px;
+  width: 335px;
+  margin: 60px 0px;
+}
+
+.boton-formulario {
+  border-radius: 4px;
+  background: #ffd953;
+  width: 100%;
+  height: 100%;
+}
+
+/* PARTE DEL FOOTER */
+
+.footer {
+  height: 493px;
+  width: auto;
+  background: #dbdbdb;
+}
+
+@media (min-width: 850px) {
+  .container-footer {
+    padding: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.img-footer {
+  margin-top: 53px;
+  margin-left: 16px;
+}
+
+@media (min-width: 850px) {
+  .img-footer {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.copyright {
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-bottom: 85px;
+  height: 15px;
+}
+
+@media (min-width: 850px) {
+  .copyright {
+    font-size: 20px;
+  }
+}
+
+.container-redes-sociales {
+  margin-top: 10px;
+  margin-left: 19px;
+  display: flex;
+}
+
+@media (min-width: 850px) {
+  .container-redes-sociales {
+    margin: 0;
+    height: 100px;
+    padding: 50px;
+  }
+}
+
+.logos-redes-sociales {
+  display: grid;
+  align-items: center;
+  gap: 30px;
+  width: 40px;
+  height: 30px;
+}
+
+.nombres-redes-sociales {
+  display: grid;
+  gap: 30px;
+}
+
+@media (min-width: 850px) {
+  .nombres-redes-sociales {
+    gap: 31px;
+    height: 100px;
+  }
+}
+
+.redes-sociales {
+  width: 100%;
+  height: 27px;
+  display: grid;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+}
